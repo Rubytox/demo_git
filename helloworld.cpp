@@ -5,6 +5,7 @@ using namespace std;
 //PROTOS
 int ajouteDeux(int x);
 int carre(int x);
+int perimRectangle(int longueur, int largeur);
 //CODE
 int main(int argc, char* argv[])
 {
@@ -20,4 +21,9 @@ int ajouteDeux(int x)
 int carre(int x)
 {
 	return x * x;
+}
+
+int perimRectangle(int longueur, int largeur)
+{
+	return (longueur + largeur) * 2;
 }
